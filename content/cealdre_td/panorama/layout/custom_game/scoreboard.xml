@@ -1,0 +1,15 @@
+<root>
+	<styles>
+		<include src="file://{resources}/styles/custom_game/scoreboard.css" />
+	</styles>
+	<scripts>
+	    <include src="file://{resources}/scripts/scoreboard.js" />
+	</scripts>
+	<Panel class="MobsCounter">
+		<Label class="MobsCounterLabel" id="to_lose" text=" >= 25">
+<!--		    <Image src="file://{images}/custom_game/ui/chicken.png" /> -->
+		</Label>
+		<Label class="MobsCounterLabel" id="units" text="0">
+		</Label>
+	</Panel>
+</root>
